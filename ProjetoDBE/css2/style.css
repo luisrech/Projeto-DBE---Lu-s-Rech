@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+h1{
+    font-family:  "Poppins", sans-serif;
+    color: #9661FF;  
+}
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vw;
+    height: 40vh;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container div{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction:column;
+    height: fit-content;
+    width: fit-content;
+    background-color: #5e17eb;
+    padding: 2%;
+}
+
+.container div label{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.7vw;
+    color: #9661FF;
+}
+
+.botao-cadastrar{
+    background: #740ef8;
+    color: #fff;
+    border-radius: 50px;
+    margin: 0 0 0 20px;
+    padding: 10px 25px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.botao-cadastrar:hover{
+    background: #8324ff;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .botao-cadastrar {
+      margin: 0 15px 0 0;
+      padding: 8px 20px;
+      letter-spacing: 1px;
+    }
+}
+
+.input{
+    background-color: #5e17eb;
+    color: #9661FF;
+    height: 1.5vw;
+    border-color: #8324ff;
+}
+
+p{
+    color: #8324ff;
+    font-family: "Poppins", sans-serif;
+}
